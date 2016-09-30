@@ -961,3 +961,10 @@ button {
 .bottom-thing a:hover {
     color: red;
 }
+button:hover {
+    background-color: #1ca991;
+}
+
+.cbp-so-section.work1.bottom-thing.cbp-so-animate {
+    padding-top: 60px;
+}
