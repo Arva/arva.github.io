@@ -11,7 +11,7 @@
     09. Mobile Menu Settings
     10. Media Queries for Mobile Settings
     11. Media Queries for iPad/Tablet Settings
-            
+
 */
 
 
@@ -39,7 +39,7 @@ Imaging with any questions regarding Web Fonts:  http://webfonts.fonts.com
     src: url("Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
     src: url("Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"), url("Fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"), url("Fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff"), url("Fonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf") format("truetype"), url("Fonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f") format("svg");
 }
-    
+
 /* 02. GENERALS SETTINGS ================================================== */
 
 
@@ -84,7 +84,7 @@ h2 {
   	font-family: "Lato";
     font-weight:100;
   	margin-top: 0.33em;}
-  
+
 h3 {
     color: #000;
     font-family: "Lato";
@@ -96,7 +96,7 @@ h3 {
 h4 {
     color: #000;
     font:1.2em 'Lato', sans-serif;
-    
+
     font-weight:100;
     text-transform: uppercase;}
 
@@ -112,7 +112,7 @@ span {
     -webkit-box-sizing:content-box;
     box-sizing:content-box;}
 /* Lead Text */
-    
+
 .lead {font-size:18px; font-family: "Lato";
     font-weight:100; color:#000;}
 
@@ -125,7 +125,7 @@ a {
 
 a:hover {
     color: #34495e;}
-    
+
 /* Paragrah */
 
 p {
@@ -168,8 +168,8 @@ p a:hover {
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;}
-    
-    
+
+
 /* Button */
 
 .button2 {
@@ -197,21 +197,21 @@ p a:hover {
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;}
-    
-    
+
+
 /* FOR FADING : DON'T REMOVE IT */
 
 .fade1,.fade2,.fade3{
     display:none;}
 
-    
+
 /* 03. HEADER SECTION ================================================== */
 
 
 nav #logo {
     float:left;
     z-index: 99999;}
-    
+
 nav {
     z-index: 999;
     width: 100%;
@@ -248,7 +248,7 @@ nav {
     font-size: 16px;
     color: #999;
     text-decoration: none;
-    
+
     /* Transitions */
     -webkit-transition: color .2s ease-in, border-top-color .2s ease-in;
     -ms-transition: color .2s ease-in, border-top-color .2s ease-in;
@@ -261,9 +261,9 @@ nav {
 #nav li:hover a, #nav li .selected {
     color: #1f2325;}
 
- 
+
 /* Navigation Fixed */
- 
+
 .cbp-af-header {
     position: fixed;
     top: 0;
@@ -345,7 +345,7 @@ nav {
 .social-stuff {
     padding:20px 0;}
 
-    
+
 /* 04. CONTAINER SECTION ================================================== */
 
 
@@ -358,7 +358,7 @@ nav {
 /* Section 1 */
 
 .work1 {
-        
+
     border-top:1px solid #EEE; }
 
 /* Section 2  */
@@ -488,7 +488,7 @@ nav {
 
 
 /* Download Button */
-    
+
 .download-button {float:left;}
 .download-button img {padding-right: 5px;}
 
@@ -520,7 +520,7 @@ nav {
 
 
 
-    
+
 /* 07. SIGN IN SECTION ================================================== */
 
 
@@ -533,10 +533,10 @@ nav {
     bottom:130px;
     z-index: 9;
     width:100%;}
-    
+
 form {
     overflow: hidden;}
-    
+
 /* Mail Input Send */
 
 #signup input {
@@ -575,7 +575,7 @@ form {
     color: #FFF;}
 
 
-    
+
 /* 08. FOOTER SECTION ================================================== */
 
 
@@ -618,7 +618,7 @@ form {
     font-size: 14px;
     color: #858C91;
     text-decoration: none;
-    
+
     /* Transitions */
     -webkit-transition: color .2s ease-in, border-top-color .2s ease-in;
     -ms-transition: color .2s ease-in, border-top-color .2s ease-in;
@@ -647,13 +647,13 @@ form {
     z-index: 99999999;
     position: absolute;
     top:0;}
-    
+
 
 .mobile-menu .row {
     background: #F1F1F1;
     padding-top:10px;
     padding-bottom: 20px;}
-    
+
 
 .mobile-menu-inner .nav-mobile li {
     color: #4D4C4C;
@@ -668,15 +668,15 @@ form {
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;	}
-    
+
 
 .mobile-menu-inner .nav-mobile li:hover {
     background-color: #333;	}
-    
+
 
 .mobile-menu-inner .nav-mobile li:hover a {
     color: #fFF;	}
-    
+
 
 .mobile-menu-inner .nav-mobile li a {
     display: block;
@@ -688,14 +688,14 @@ form {
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;	}
-    
+
 
 #collapse {
     display:none;}
 
 
 
-    
+
 /* 10. MEDIA QUERIES FOR MOBILE SETTINGS ================================================== */
 
 
@@ -707,63 +707,63 @@ and (min-width : 320px)
 and (max-width : 568px) {
 
     /* Display the mobile menu */
-    
+
     .mobile-menu {display:block; position: relative;}
-    
+
     .cbp-af-header {display: none;}
 
     #header .moon {bottom:-50px !important;}
-    
+
     #header .logo {text-align: center;}
-        
+
     #header h2 {text-align: center;}
 
   	.thumbs .tiles.three_up > li {width:100%; padding-bottom: 20px;}
-  	
+
   	#joinus {position: relative; bottom: auto;}
-  	
+
   	#signup {position: relative; bottom: auto;}
-  	
+
   	#footer {position: relative; bottom: auto;}
-  	
+
   	.social-stuff {display: none;}
-  	
+
   	.social {display:none;}
-  	
+
   	#footerSpacer {display: none;}
-  	
+
   	.download-button {text-align: center; float: inherit;  margin: 0 auto; }
-        
+
     #header .button, .button2 {font-size:12px; }
-    
+
     #header .twelve.columns { margin-top:40px; text-align: center;  }
-        
+
     .cbp-so-side {text-align: center; padding: 4% 0;}
-    
+
     .cbp-so-side img {text-align: center; opacity: 1;}
-    
+
     .cbp-so-side-video, .cbp-so-side-img {display: none; opacity: 1;}
-    
+
     .cbp-so-side-left img, .cbp-so-side-right img { float: none; }
 
     h2 {font-size:1.5em}
-    
+
     h3 {font-size:1.5em;}
-    
+
     span {font-size:1.1em;}
-    
+
     #slider-wrapper{display: none;}
-        
+
     #signup form {overflow: hidden;}
-    
+
     #signup input {border-radius: 0px; margin-bottom: 20px;}
-    
+
     #signup .submit {width:100%;}
-    
+
     #signup .spam {padding-top:20px;}
-    
+
     #footer p {text-align: center; padding:10px 0;}
-    
+
     #footer .social {text-align: center;}
 
 }
@@ -779,60 +779,60 @@ and (max-width : 1024px) {
 
 
     /* Display the mobile menu */
-    
+
     .mobile-menu {display:block; position: relative; }
-    
+
     .cbp-af-header {display: none;}
-    
+
   	#header .moon {bottom:-80px;}
-  	
+
     #header .twelve.columns { margin-top:10%; text-align: center;  }
-    
+
     #header h2 {font-size:2em}
-    
+
     #header .button {font-size:16px;}
 
   	#joinus {position: relative; bottom: auto;}
-  	
+
   	#signup {position: relative; bottom: auto;}
-  	
+
   	#footer {position: relative; bottom: auto;}
-  		
+
   	.social {display:block;}
-  	
+
   	.social-stuff {display: none;}
-  	 
+
   	#footerSpacer {display: none;}
-  	
+
     .cbp-so-side img {text-align: center; opacity: 1;}
-    
+
     .cbp-so-side-video, .cbp-so-side-img {display: block; opacity: 1;}
-    
+
     .cbp-so-section.cbp-so-animate .cbp-so-side-left,
 .cbp-so-section.cbp-so-animate .cbp-so-side-right {display: block; opacity: 1;}
-    
+
     .cbp-so-side-left img { float: right; }
-        
+
     .cbp-so-side h3 {font-size:1.5em;}
-    
+
     .cbp-so-side-right { text-align: left;}
 
     .cbp-so-side-left {text-align: left;}
-    
+
     #signup h2 {font-size:2em;}
-    
+
     #signup form {overflow: hidden;}
-    
+
     #signup input {border-radius: 0px;}
-    
+
     #signup .submit {width:100%;}
-    
+
     #signup .spam {padding-top:50px;}
-    
+
     #footer p {text-align: left; padding:10px 0;}
-    
+
     #footer .social {text-align: center;}
-        
+
 }
 
 
@@ -923,7 +923,7 @@ h3 {
     font-weight:bold;
     font-size:20px;
     letter-spacing:1px;
-    
+
     padding-bottom:10px;
     padding-top:20px;
 }
