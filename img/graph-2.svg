@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="935" height="426" viewBox="0 0 935 426">
+  <g fill="none" fill-rule="evenodd">
+    <g stroke="#24EAC9" transform="translate(107 29)">
+      <g transform="translate(0 289)">
+        <path stroke-linecap="square" d="M753,4 L-2.27373675e-13,4"/>
+        <path stroke-linecap="round" d="M750,4 L754,8" transform="matrix(1 0 0 -1 0 12)"/>
+        <path stroke-linecap="round" d="M750,-9.09494702e-13 L754,4"/>
+      </g>
+      <g transform="translate(5)">
+        <path stroke-linecap="square" d="M4,1 L4,303"/>
+        <path stroke-linecap="round" d="M4,-9.09494702e-13 L8,4"/>
+        <path stroke-linecap="round" d="M-9.09494702e-13,-9.09494702e-13 L4,4" transform="matrix(1 0 0 -1 0 4)"/>
+      </g>
+    </g>
+    <path fill="#00FA9A" d="M120 198L180 198 180 315.992483C180 317.101204 179.10527 318 178.003693 318L121.996307 318C120.893777 318 120 317.103084 120 315.992483L120 198zM190 198L250 198 250 315.992483C250 317.101204 249.10527 318 248.003693 318L191.996307 318C190.893777 318 190 317.103084 190 315.992483L190 198z"/>
+    <path stroke="#24EAC9" stroke-linecap="square" stroke-opacity=".302" d="M185,30 L185,332"/>
+    <path fill="#00FA9A" d="M260,198 L320,198 L320,315.992483 C320,317.101204 319.10527,318 318.003693,318 L261.996307,318 C260.893777,318 260,317.103084 260,315.992483 L260,198 Z"/>
+    <path stroke="#24EAC9" stroke-linecap="square" stroke-opacity=".302" d="M255,30 L255,332"/>
+    <path stroke="#24EAC9" stroke-linecap="square" stroke-opacity=".302" d="M861 196L109 196M861 75L109 75" opacity=".5"/>
+    <path fill="#00FA9A" d="M330,198 L390,198 L390,315.992483 C390,317.101204 389.10527,318 388.003693,318 L331.996307,318 C330.893777,318 330,317.103084 330,315.992483 L330,198 Z"/>
+    <path stroke="#24EAC9" stroke-linecap="square" stroke-opacity=".302" d="M325,30 L325,332"/>
+    <path fill="#00FA9A" d="M400,198 L460,198 L460,315.992483 C460,317.101204 459.10527,318 458.003693,318 L401.996307,318 C400.893777,318 400,317.103084 400,315.992483 L400,198 Z"/>
+    <path stroke="#24EAC9" stroke-linecap="square" stroke-opacity=".302" d="M395,30 L395,332"/>
+    <path fill="#00FA9A" d="M470,198 L530,198 L530,315.992483 C530,317.101204 529.10527,318 528.003693,318 L471.996307,318 C470.893777,318 470,317.103084 470,315.992483 L470,198 Z"/>
+    <path stroke="#24EAC9" stroke-linecap="square" stroke-opacity=".302" d="M465,30 L465,332"/>
+    <path fill="#00FA9A" d="M540,198 L600,198 L600,315.992483 C600,317.101204 599.10527,318 598.003693,318 L541.996307,318 C540.893777,318 540,317.103084 540,315.992483 L540,198 Z"/>
+    <path stroke="#24EAC9" stroke-linecap="square" stroke-opacity=".302" d="M535,30 L535,332"/>
+    <path fill="#00FA9A" d="M610,198 L670,198 L670,315.992483 C670,317.101204 669.10527,318 668.003693,318 L611.996307,318 C610.893777,318 610,317.103084 610,315.992483 L610,198 Z"/>
+    <path stroke="#24EAC9" stroke-linecap="square" stroke-opacity=".302" d="M605,30 L605,332"/>
+    <path fill="#00FA9A" d="M680,198 L740,198 L740,315.992483 C740,317.101204 739.10527,318 738.003693,318 L681.996307,318 C680.893777,318 680,317.103084 680,315.992483 L680,198 Z"/>
+    <path stroke="#24EAC9" stroke-linecap="square" stroke-opacity=".302" d="M675,30 L675,332"/>
+    <rect width="60" height="120" x="750" y="198" fill="#00FA9A" rx="2"/>
+    <path stroke="#24EAC9" stroke-linecap="square" stroke-opacity=".302" d="M745 30L745 332M815 30L815 332"/>
+    <path stroke="#00FA9A" d="M499,382 C499,382 498.067661,377.026058 489,377 L195,377 C191.063495,377 191,375 191,375"/>
+    <path stroke="#00FA9A" d="M807,382 C807,382 806.067661,377.026058 797,377 L503,377 C499.063495,377 499,375 499,375" transform="matrix(-1 0 0 1 1306 0)"/>
+    <path fill="#FEFE7C" d="M120 75.0075171C120 73.898796 120.89473 73 121.996307 73L178.003693 73C179.106223 73 180 73.8969164 180 75.0075171L180 193 120 193 120 75.0075171zM190 87.9949669C190 86.8931771 190.89473 86 191.996307 86L248.003693 86C249.106223 86 250 86.8928826 250 87.9949669L250 193 190 193 190 87.9949669zM260 102.00714C260 100.898627 260.89473 100 261.996307 100L318.003693 100C319.106223 100 320 100.890631 320 102.00714L320 193 260 193 260 102.00714zM330 114.997498C330 113.89431 330.89473 113 331.996307 113L388.003693 113C389.106223 113 390 113.898438 390 114.997498L390 193 330 193 330 114.997498zM400 128.005177C400 126.897748 400.89473 126 401.996307 126L458.003693 126C459.106223 126 460 126.896468 460 128.005177L460 193 400 193 400 128.005177zM470 141.99691C470 140.894047 470.89473 140 471.996307 140L528.003693 140C529.106223 140 530 140.897676 530 141.99691L530 193 470 193 470 141.99691zM540 154.997292C540 153.894218 540.89473 153 541.996307 153L598.003693 153C599.106223 153 600 153.89154 600 154.997292L600 193 540 193 540 154.997292zM610 168.997005C610 167.894089 610.89473 167 611.996307 167L668.003693 167C669.106223 167 670 167.894979 670 168.997005L670 193 610 193 610 168.997005zM680 182.00276C680 180.896666 680.89473 180 681.996307 180L738.003693 180C739.106223 180 740 180.893543 740 182.00276L740 193 680 193 680 182.00276z"/>
+    <path stroke="#00FA9A" d="M853.5,231.5 C853.5,231.5 852.567661,226.526058 843.5,226.5 L798.5,226.5 C794.563495,226.5 794.5,224.5 794.5,224.5" transform="matrix(0 1 1 0 596 -596)"/>
+    <path stroke="#00FA9A" d="M853.5,290.5 C853.5,290.5 852.567661,285.526058 843.5,285.5 L798.5,285.5 C794.563495,285.5 794.5,283.5 794.5,283.5" transform="rotate(-90 824 287)"/>
+    <path stroke="#FEFE7C" d="M164.5,139.5 C164.5,139.5 163.567661,134.526058 154.5,134.5 L49.5,134.5 C45.5634947,134.5 45.5,132.5 45.5,132.5" transform="rotate(90 105 136)"/>
+    <path stroke="#FEFE7C" d="M164.5,258.5 C164.5,258.5 163.567661,253.526058 154.5,253.5 L49.5,253.5 C45.5634947,253.5 45.5,251.5 45.5,251.5" transform="matrix(0 -1 -1 0 360 360)"/>
+    <path stroke="#00FA9A" d="M150,343 C150,343 149.067661,338.026058 140,338 L124,338 C120.063495,338 120,336 120,336"/>
+    <path stroke="#00FA9A" d="M180,343 C180,343 179.067661,338.026058 170,338 L154,338 C150.063495,338 150,336 150,336" transform="matrix(-1 0 0 1 330 0)"/>
+    <path stroke="#00FA9A" d="M220,343 C220,343 219.067661,338.026058 210,338 L194,338 C190.063495,338 190,336 190,336"/>
+    <path stroke="#00FA9A" d="M250,343 C250,343 249.067661,338.026058 240,338 L224,338 C220.063495,338 220,336 220,336" transform="matrix(-1 0 0 1 470 0)"/>
+    <path stroke="#00FA9A" d="M290,343 C290,343 289.067661,338.026058 280,338 L264,338 C260.063495,338 260,336 260,336"/>
+    <path stroke="#00FA9A" d="M320,343 C320,343 319.067661,338.026058 310,338 L294,338 C290.063495,338 290,336 290,336" transform="matrix(-1 0 0 1 610 0)"/>
+    <path stroke="#00FA9A" d="M360,343 C360,343 359.067661,338.026058 350,338 L334,338 C330.063495,338 330,336 330,336"/>
+    <path stroke="#00FA9A" d="M390,343 C390,343 389.067661,338.026058 380,338 L364,338 C360.063495,338 360,336 360,336" transform="matrix(-1 0 0 1 750 0)"/>
+    <path stroke="#00FA9A" d="M430,343 C430,343 429.067661,338.026058 420,338 L404,338 C400.063495,338 400,336 400,336"/>
+    <path stroke="#00FA9A" d="M460,343 C460,343 459.067661,338.026058 450,338 L434,338 C430.063495,338 430,336 430,336" transform="matrix(-1 0 0 1 890 0)"/>
+    <path stroke="#00FA9A" d="M500,343 C500,343 499.067661,338.026058 490,338 L474,338 C470.063495,338 470,336 470,336"/>
+    <path stroke="#00FA9A" d="M530,343 C530,343 529.067661,338.026058 520,338 L504,338 C500.063495,338 500,336 500,336" transform="matrix(-1 0 0 1 1030 0)"/>
+    <path stroke="#00FA9A" d="M570,343 C570,343 569.067661,338.026058 560,338 L544,338 C540.063495,338 540,336 540,336"/>
+    <path stroke="#00FA9A" d="M600,343 C600,343 599.067661,338.026058 590,338 L574,338 C570.063495,338 570,336 570,336" transform="matrix(-1 0 0 1 1170 0)"/>
+    <path stroke="#00FA9A" d="M640,343 C640,343 639.067661,338.026058 630,338 L614,338 C610.063495,338 610,336 610,336"/>
+    <path stroke="#00FA9A" d="M670,343 C670,343 669.067661,338.026058 660,338 L644,338 C640.063495,338 640,336 640,336" transform="matrix(-1 0 0 1 1310 0)"/>
+    <path stroke="#00FA9A" d="M710,343 C710,343 709.067661,338.026058 700,338 L684,338 C680.063495,338 680,336 680,336"/>
+    <path stroke="#00FA9A" d="M740,343 C740,343 739.067661,338.026058 730,338 L714,338 C710.063495,338 710,336 710,336" transform="matrix(-1 0 0 1 1450 0)"/>
+    <path stroke="#00FA9A" d="M780,343 C780,343 779.067661,338.026058 770,338 L754,338 C750.063495,338 750,336 750,336"/>
+    <path stroke="#00FA9A" d="M810,343 C810,343 809.067661,338.026058 800,338 L784,338 C780.063495,338 780,336 780,336" transform="matrix(-1 0 0 1 1590 0)"/>
+    <text fill="#FEFE7C" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="134.888" y="52">100%</tspan> <tspan x="132.5" y="63">bonus</tspan>
+    </text>
+    <text fill="#FEFE7C" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="207.74" y="66">80%</tspan> <tspan x="202.5" y="77">bonus</tspan>
+    </text>
+    <text fill="#FEFE7C" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="278.992" y="79">70%</tspan> <tspan x="273.5" y="90">bonus</tspan>
+    </text>
+    <text fill="#FEFE7C" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="346.79" y="92">60%</tspan> <tspan x="341.5" y="103">bonus</tspan>
+    </text>
+    <text fill="#FEFE7C" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="416.961" y="105">50%</tspan> <tspan x="411.5" y="116">bonus</tspan>
+    </text>
+    <text fill="#FEFE7C" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="486.862" y="119">40%</tspan> <tspan x="481.5" y="130">bonus</tspan>
+    </text>
+    <text fill="#FEFE7C" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="557.132" y="131">30%</tspan> <tspan x="551.5" y="142">bonus</tspan>
+    </text>
+    <text fill="#FEFE7C" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="626.911" y="146">20%</tspan> <tspan x="621.5" y="157">bonus</tspan>
+    </text>
+    <text fill="#FEFE7C" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="697.816" y="160">10%</tspan> <tspan x="691.5" y="171">bonus</tspan>
+    </text>
+    <text fill="#24EAC9" fill-opacity=".302" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="772.068" y="173">no</tspan> <tspan x="761.5" y="184">bonus</tspan>
+    </text>
+    <text fill="#24EAC9" fill-opacity=".302" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="457.816" y="434">1 mln A / tier</tspan>
+    </text>
+    <text fill="#24EAC9" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="841" y="261">1 ETH = 100 A</tspan>
+    </text>
+    <text fill="#FEFE7C" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="0" y="204">1 ETH = 200 A</tspan>
+    </text>
+    <path fill="#FEFE7C" d="M74.896,224.578 L71.719,224.578 L71.116,226 L70.009,226 L72.79,219.7 L73.879,219.7 L76.633,226 L75.499,226 L74.896,224.578 Z M74.491,223.633 L72.115,223.633 L73.303,220.834 L74.491,223.633 Z M71.6499939,226.689663 L71.9555509,226 L74.7799532,226 L75.079994,226.689663 L71.6499939,226.689663 Z"/>
+    <polygon fill="#FEFE7C" points="74.4 209.69 77.83 209.69 77.53 209 74.706 209"/>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="840" y="244">Basic rate:</tspan>
+    </text>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="-1" y="187">BONUS rate:</tspan>
+    </text>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="489.972" y="397">ICO</tspan>
+    </text>
+    <text fill="#24EAC9" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="463.772" y="413">9 000 000 A</tspan>
+    </text>
+    <polygon fill="#24EAC9" points="531.5 418.69 534.93 418.69 534.63 418 531.806 418"/>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="124.356" y="358">PRE—ICO</tspan>
+    </text>
+    <text fill="#24EAC9" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="119.349" y="374">500 000 A</tspan>
+    </text>
+    <polygon fill="#24EAC9" points="175 379.69 178.429 379.69 178.129 379 175.305 379"/>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="205.16" y="358">tier 1</tspan>
+    </text>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="274.255" y="358">tier 2</tspan>
+    </text>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="344.476" y="358">tier 3</tspan>
+    </text>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="414.206" y="358">tier 4</tspan>
+    </text>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="484.305" y="358">tier 5</tspan>
+    </text>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="554.134" y="358">tier 6</tspan>
+    </text>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="624.336" y="358">tier 7</tspan>
+    </text>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="694.084" y="358">tier 8</tspan>
+    </text>
+    <text fill="#FFF" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="764.134" y="358">tier 9</tspan>
+    </text>
+  </g>
+</svg>

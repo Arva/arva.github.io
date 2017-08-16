@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="189px" height="115px" viewBox="0 0 189 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Popup</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,5.99842118 C0,2.68558464 2.68129956,0 6.0023096,0 L142.99769,0 C146.312674,0 149,2.67986017 149,5.99842118 L149,64.0015788 C149,67.3144154 146.3187,70 142.99769,70 L6.0023096,70 C2.68732555,70 0,67.3201398 0,64.0015788 L0,5.99842118 Z M74.5,78 L71,70 L78,70 L74.5,78 Z" id="path-1"></path>
+        <filter x="-21.5%" y="-46.2%" width="143.0%" height="182.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.604586264   0 0 0 0 0   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-home" transform="translate(-490.000000, -6204.000000)">
+            <g id="Graph" transform="translate(224.000000, 5880.000000)">
+                <g id="Popup" transform="translate(286.000000, 337.000000)">
+                    <g id="bg" transform="translate(74.500000, 39.000000) scale(1, -1) translate(-74.500000, -39.000000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#001A28" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

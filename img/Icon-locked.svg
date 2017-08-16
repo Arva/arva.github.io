@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="80px" viewBox="0 0 27 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-locked</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M21,30.2733236 L21,8.00005106 C21,3.5797863 17.418278,0 13,0 C8.59071231,0 5,3.58174486 5,8.00005106 L5,31.0113429 C1.9495349,33.4864872 0,37.2655745 0,41.5 C0,45.7344255 1.9495349,49.5135128 5,51.9886571 L5,71.9999489 C5,76.4202137 8.581722,80 13,80 C17.4092877,80 21,76.4182551 21,71.9999489 L21,52.7266764 C24.6179572,50.3048924 27,46.1806242 27,41.5 C27,36.8193758 24.6179572,32.6951076 21,30.2733236 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-status-copy" transform="translate(-473.000000, -383.000000)">
+            <g id="CONTENT" transform="translate(32.000000, 161.000000)">
+                <g id="Goals" transform="translate(441.000000, 137.000000)">
+                    <g id="Icon-locked" transform="translate(0.000000, 85.000000)">
+                        <g>
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Combined-Shape" fill="#9A00FA" xlink:href="#path-1"></use>
+                            <g id="icon-lock" transform="translate(8.000000, 35.000000)">
+                                <rect id="Rectangle" fill="#FFFFFF" x="0" y="5" width="11" height="7" rx="1"></rect>
+                                <rect id="Rectangle-3" stroke="#FFFFFF" stroke-width="2" x="3" y="1" width="5" height="8" rx="2.5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

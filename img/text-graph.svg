@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="920px" height="391px" viewBox="0 0 920 391" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Text</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill="#FEFE7C">
+            <tspan x="347.789955" y="49">60%</tspan>
+            <tspan x="342.499591" y="60">bonus</tspan>
+        </text>
+        <filter x="-9.6%" y="-22.7%" width="119.2%" height="163.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-home" transform="translate(-224.000000, -5896.000000)">
+            <g id="Graph" transform="translate(224.000000, 5880.000000)">
+                <g id="Text" transform="translate(0.000000, 14.000000)">
+                    <text id="100%-bonus" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill="#FEFE7C">
+                        <tspan x="135.888273" y="9">100%</tspan>
+                        <tspan x="133.499591" y="20">bonus</tspan>
+                    </text>
+                    <text id="80%-bonus" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill="#FEFE7C">
+                        <tspan x="208.740455" y="23">80%</tspan>
+                        <tspan x="203.499591" y="34">bonus</tspan>
+                    </text>
+                    <text id="70%-bonus" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill="#FEFE7C">
+                        <tspan x="279.992455" y="36">70%</tspan>
+                        <tspan x="274.499591" y="47">bonus</tspan>
+                    </text>
+                    <g id="60%-bonus" fill-opacity="1" fill="#FEFE7C">
+                        <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                        <use xlink:href="#text-1"></use>
+                    </g>
+                    <text id="50%-bonus" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill="#FEFE7C">
+                        <tspan x="417.960955" y="62">50%</tspan>
+                        <tspan x="412.499591" y="73">bonus</tspan>
+                    </text>
+                    <text id="40%-bonus" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill="#FEFE7C">
+                        <tspan x="487.861955" y="76">40%</tspan>
+                        <tspan x="482.499591" y="87">bonus</tspan>
+                    </text>
+                    <text id="30%-bonus" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill="#FEFE7C">
+                        <tspan x="558.131955" y="88">30%</tspan>
+                        <tspan x="552.499591" y="99">bonus</tspan>
+                    </text>
+                    <text id="20%-bonus" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill="#FEFE7C">
+                        <tspan x="627.911455" y="103">20%</tspan>
+                        <tspan x="622.499591" y="114">bonus</tspan>
+                    </text>
+                    <text id="10%-bonus" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill="#FEFE7C">
+                        <tspan x="698.815955" y="117">10%</tspan>
+                        <tspan x="692.499591" y="128">bonus</tspan>
+                    </text>
+                    <text id="no-bonus" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill-opacity="0.302451313" fill="#24EAC9">
+                        <tspan x="773.067636" y="130">no</tspan>
+                        <tspan x="762.499591" y="141">bonus</tspan>
+                    </text>
+                    <text id="1-mln-A-/-tier" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="11" letter-spacing="1.63636363" fill-opacity="0.302451313" fill="#24EAC9">
+                        <tspan x="458.816455" y="391">1 mln A / tier</tspan>
+                    </text>
+                    <text id="1-ETH-=-100-A" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#24EAC9">
+                        <tspan x="842" y="218">1 ETH = 100 A</tspan>
+                    </text>
+                    <text id="1-ETH-=-200-A" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FEFE7C">
+                        <tspan x="1" y="161">1 ETH = 200 A</tspan>
+                    </text>
+                    <path d="M75.896,181.578 L72.719,181.578 L72.116,183 L71.009,183 L73.79,176.7 L74.879,176.7 L77.633,183 L76.499,183 L75.896,181.578 Z M75.491,180.633 L73.115,180.633 L74.303,177.834 L75.491,180.633 Z M72.6499939,183.689663 L72.9555509,183 L75.7799532,183 L76.079994,183.689663 L72.6499939,183.689663 Z" id="Combined-Shape" fill="#FEFE7C"></path>
+                    <polygon id="Path-5" fill="#FEFE7C" points="75.3999939 166.689663 78.829994 166.689663 78.5299532 166 75.7055509 166"></polygon>
+                    <text id="Basic-rate:" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="841" y="201">Basic rate:</tspan>
+                    </text>
+                    <text id="BONUS-rate:" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="0" y="144">BONUS rate:</tspan>
+                    </text>
+                    <text id="ICO" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="490.972455" y="354">ICO</tspan>
+                    </text>
+                    <text id="9-000-000-A" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#24EAC9">
+                        <tspan x="464.7715" y="370">9 000 000 A</tspan>
+                    </text>
+                    <polygon id="Path-5" fill="#24EAC9" points="532.5 375.689663 535.93 375.689663 535.629959 375 532.805557 375"></polygon>
+                    <text id="PRE—ICO" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="125.356227" y="315">PRE—ICO</tspan>
+                    </text>
+                    <text id="500-000-A" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#24EAC9">
+                        <tspan x="120.349364" y="331">500 000 A</tspan>
+                    </text>
+                    <polygon id="Path-5" fill="#24EAC9" points="176 336.689663 179.429256 336.689663 179.12928 336 176.305491 336"></polygon>
+                    <text id="tier-1" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="206.159909" y="315">tier 1</tspan>
+                    </text>
+                    <text id="tier-2" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="275.255409" y="315">tier 2</tspan>
+                    </text>
+                    <text id="tier-3" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="345.475909" y="315">tier 3</tspan>
+                    </text>
+                    <text id="tier-4" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="415.205909" y="315">tier 4</tspan>
+                    </text>
+                    <text id="tier-5" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="485.304909" y="315">tier 5</tspan>
+                    </text>
+                    <text id="tier-6" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="555.133909" y="315">tier 6</tspan>
+                    </text>
+                    <text id="tier-7" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="625.336409" y="315">tier 7</tspan>
+                    </text>
+                    <text id="tier-8" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="695.084409" y="315">tier 8</tspan>
+                    </text>
+                    <text id="tier-9" font-family="Montserrat-Regular, Montserrat" font-size="9" font-weight="normal" line-spacing="21" letter-spacing="1.63636363" fill="#FFFFFF">
+                        <tspan x="765.133909" y="315">tier 9</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

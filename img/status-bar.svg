@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="359px" height="16px" viewBox="0 0 359 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>status-bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="359" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-status" transform="translate(-127.000000, -515.000000)">
+            <g id="CONTENT" transform="translate(126.000000, 161.000000)">
+                <g id="2" transform="translate(0.000000, 282.000000)">
+                    <g id="status-bar" transform="translate(180.500000, 80.000000) rotate(-90.000000) translate(-180.500000, -80.000000) translate(172.500000, -99.500000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#450D68" xlink:href="#path-1"></use>
+                        <rect id="Rectangle-6" fill="#00FA9A" mask="url(#mask-2)" x="0" y="0" width="16" height="134"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

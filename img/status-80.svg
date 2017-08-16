@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="15px" viewBox="0 0 300 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>80</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,7.5 C0,3.35786438 3.35832671,0 7.49572652,0 L240,0 L240,15 L7.49572652,15 C3.35595107,15 0,11.6337072 0,7.5 L0,7.5 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-home-copy" transform="translate(-124.000000, -2212.000000)">
+            <g id="Content-Copy" transform="translate(124.000000, 2015.000000)">
+                <g id="design-sprint" transform="translate(0.000000, 191.000000)">
+                    <g id="80" transform="translate(0.000000, 6.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#00FA9A" xlink:href="#path-1"></use>
+                        <path d="M240,0 L292.492017,0 C296.638561,0 300,3.36629279 300,7.5 L300,7.5 C300,11.6421356 296.645573,15 292.492017,15 L240,15 L240,0 Z" id="Rectangle-4" fill="#4A0D70"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

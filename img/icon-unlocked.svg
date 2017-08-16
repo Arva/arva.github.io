@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="80px" viewBox="0 0 27 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-unlocked</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-status-copy" transform="translate(-473.000000, -298.000000)">
+            <g id="CONTENT" transform="translate(32.000000, 161.000000)">
+                <g id="Goals" transform="translate(441.000000, 137.000000)">
+                    <g id="icon-unlocked">
+                        <g>
+                            <rect id="Rectangle-2" fill="#00FA9A" x="5" y="0" width="16" height="80" rx="8"></rect>
+                            <circle id="Oval" fill="#00FA9A" cx="13.5" cy="41.5" r="13.5"></circle>
+                            <g transform="translate(9.000000, 36.000000)"></g>
+                            <polyline id="Path-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="9.48804348 43.3567626 12.5742751 46.4879962 18.4880435 40.4879962"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

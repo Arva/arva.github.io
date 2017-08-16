@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="189" height="115" viewBox="0 0 189 115">
+  <defs>
+    <path id="popup-graph-b" d="M0,5.99842118 C0,2.68558464 2.68129956,0 6.0023096,0 L142.99769,0 C146.312674,0 149,2.67986017 149,5.99842118 L149,64.0015788 C149,67.3144154 146.3187,70 142.99769,70 L6.0023096,70 C2.68732555,70 0,67.3201398 0,64.0015788 L0,5.99842118 Z M74.5,78 L71,70 L78,70 L74.5,78 Z"/>
+    <filter id="popup-graph-a" width="143%" height="182.1%" x="-21.5%" y="-46.2%" filterUnits="objectBoundingBox">
+      <feOffset dy="-4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.604586264   0 0 0 0 0   0 0 0 0 0.980392157  0 0 0 1 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(20 13)">
+    <g transform="matrix(1 0 0 -1 0 78)">
+      <use fill="#000" filter="url(#popup-graph-a)" xlink:href="#popup-graph-b"/>
+      <use fill="#001A28" xlink:href="#popup-graph-b"/>
+    </g>
+    <text fill="#24EAC9" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="57" y="31">2 500 001</tspan>
+    </text>
+    <path fill="#24EAC9" d="M123.887,34.878 L120.71,34.878 L120.107,36.3 L119,36.3 L121.781,30 L122.87,30 L125.624,36.3 L124.49,36.3 L123.887,34.878 Z M123.482,33.933 L121.106,33.933 L122.294,31.134 L123.482,33.933 Z M120.590976,36.9896626 L120.896533,36.3 L123.720935,36.3 L124.020976,36.9896626 L120.590976,36.9896626 Z"/>
+    <text fill="#C5DFDB" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="16" y="31">from</tspan>
+    </text>
+    <text fill="#24EAC9" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="37" y="53">3 500 000</tspan>
+    </text>
+    <path fill="#24EAC9" d="M105.887,56.878 L102.71,56.878 L102.107,58.3 L101,58.3 L103.781,52 L104.87,52 L107.624,58.3 L106.49,58.3 L105.887,56.878 Z M105.482,55.933 L103.106,55.933 L104.294,53.134 L105.482,55.933 Z M102.590976,58.9896626 L102.896533,58.3 L105.720935,58.3 L106.020976,58.9896626 L102.590976,58.9896626 Z"/>
+    <text fill="#C5DFDB" font-family="Montserrat-Regular, Montserrat" font-size="9" letter-spacing="1.636">
+      <tspan x="16" y="53">to</tspan>
+    </text>
+  </g>
+</svg>
