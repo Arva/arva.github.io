@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="789" height="1703" viewBox="0 0 789 1703">
+  <defs>
+    <path id="graphic-a" d="M22,1305.01134 L22,1069.98866 C25.0504651,1067.51351 27,1063.73443 27,1059.5 C27,1055.26557 25.0504651,1051.48649 22,1049.01134 L22,927.988657 C25.0504651,925.513513 27,921.734426 27,917.5 C27,913.265574 25.0504651,909.486487 22,907.011343 L22,682.988657 C25.0504651,680.513513 27,676.734426 27,672.5 C27,668.265574 25.0504651,664.486487 22,662.011343 L22,416.988657 C25.0504651,414.513513 27,410.734426 27,406.5 C27,402.265574 25.0504651,398.486487 22,396.011343 L22,200.988657 C25.0504651,198.513513 27,194.734426 27,190.5 C27,186.265574 25.0504651,182.486487 22,180.011343 L22,51.9886571 C25.0504651,49.5135128 27,45.7344255 27,41.5 C27,37.2655745 25.0504651,33.4864872 22,31.0113429 L22,8.00394889 C22,3.58112835 18.418278,0 14,0 C9.59071231,0 6,3.58348998 6,8.00394889 L6,30.2733236 C2.38204277,32.6951076 0,36.8193758 0,41.5 C0,46.1806242 2.38204277,50.3048924 6,52.7266764 L6,179.273324 C2.38204277,181.695108 0,185.819376 0,190.5 C0,195.180624 2.38204277,199.304892 6,201.726676 L6,395.273324 C2.38204277,397.695108 0,401.819376 0,406.5 C0,411.180624 2.38204277,415.304892 6,417.726676 L6,661.273324 C2.38204277,663.695108 0,667.819376 0,672.5 C0,677.180624 2.38204277,681.304892 6,683.726676 L6,906.273324 C2.38204277,908.695108 0,912.819376 0,917.5 C0,922.180624 2.38204277,926.304892 6,928.726676 L6,1048.27332 C2.38204277,1050.69511 0,1054.81938 0,1059.5 C0,1064.18062 2.38204277,1068.30489 6,1070.72668 L6,1304.27332 C2.38204277,1306.69511 0,1310.81938 0,1315.5 C0,1320.18062 2.38204277,1324.30489 6,1326.72668 L6,1548.59761 C6,1553.02043 9.581722,1556.60156 14,1556.60156 C18.4092877,1556.60156 22,1553.01807 22,1548.59761 L22,1325.98866 C25.0504651,1323.51351 27,1319.73443 27,1315.5 C27,1311.26557 25.0504651,1307.48649 22,1305.01134 Z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(53 65)">
+    <text fill="#9A00FA" font-family="Montserrat-Light, Montserrat" font-size="16" font-weight="300">
+      <tspan x="56.96" y="43">2017</tspan>
+    </text>
+    <text fill="#C4DFDA" font-family="Roboto-Light, Roboto" font-size="12" font-weight="300">
+      <tspan x="47.387" y="59">0% done</tspan>
+    </text>
+    <text fill="#9A00FA" font-family="Montserrat-Light, Montserrat" font-size="16" font-weight="300">
+      <tspan x="56.96" y="193">2017</tspan>
+    </text>
+    <text fill="#C4DFDA" font-family="Roboto-Light, Roboto" font-size="12" font-weight="300">
+      <tspan x="44.469" y="209">4% done</tspan>
+    </text>
+    <g transform="translate(105)">
+      <use fill="#9A00FA" xlink:href="#graphic-a"/>
+      <g transform="translate(8 183)">
+        <rect width="11" height="7" y="5" fill="#FFF" rx="1"/>
+        <rect width="5" height="8" x="3" y="1" stroke="#FFF" stroke-width="2" rx="2.5"/>
+      </g>
+      <g transform="translate(8 35)">
+        <rect width="11" height="7" y="5" fill="#FFF" rx="1"/>
+        <rect width="5" height="8" x="3" y="1" stroke="#FFF" stroke-width="2" rx="2.5"/>
+      </g>
+      <g transform="translate(8 400)">
+        <rect width="11" height="7" y="5" fill="#FFF" rx="1"/>
+        <rect width="5" height="8" x="3" y="1" stroke="#FFF" stroke-width="2" rx="2.5"/>
+      </g>
+      <g transform="translate(8 665)">
+        <rect width="11" height="7" y="5" fill="#FFF" rx="1"/>
+        <rect width="5" height="8" x="3" y="1" stroke="#FFF" stroke-width="2" rx="2.5"/>
+      </g>
+      <g transform="translate(8 910)">
+        <rect width="11" height="7" y="5" fill="#FFF" rx="1"/>
+        <rect width="5" height="8" x="3" y="1" stroke="#FFF" stroke-width="2" rx="2.5"/>
+      </g>
+      <g transform="translate(8 1053)">
+        <rect width="11" height="7" y="5" fill="#FFF" rx="1"/>
+        <rect width="5" height="8" x="3" y="1" stroke="#FFF" stroke-width="2" rx="2.5"/>
+      </g>
+      <g transform="translate(8 1309)">
+        <rect width="11" height="7" y="5" fill="#FFF" rx="1"/>
+        <rect width="5" height="8" x="3" y="1" stroke="#FFF" stroke-width="2" rx="2.5"/>
+      </g>
+    </g>
+    <g font-weight="300" transform="translate(0 391)">
+      <text fill="#9A00FA" font-family="Montserrat-Light, Montserrat" font-size="16">
+        <tspan x="55.952" y="16">2018</tspan>
+      </text>
+      <text fill="#C4DFDA" font-family="Roboto-Light, Roboto" font-size="12">
+        <tspan x="47.387" y="30">0% done</tspan>
+      </text>
+    </g>
+    <g font-weight="300" transform="translate(0 657)">
+      <text fill="#9A00FA" font-family="Montserrat-Light, Montserrat" font-size="16">
+        <tspan x="55.952" y="16">2018</tspan>
+      </text>
+      <text fill="#C4DFDA" font-family="Roboto-Light, Roboto" font-size="12">
+        <tspan x="47.387" y="30">0% done</tspan>
+      </text>
+      <text fill="#9A00FA" font-family="Montserrat-Light, Montserrat" font-size="16">
+        <tspan x="55.952" y="260">2018</tspan>
+      </text>
+      <text fill="#9A00FA" font-family="Montserrat-Light, Montserrat" font-size="16">
+        <tspan x="55.952" y="404">2018</tspan>
+      </text>
+      <text fill="#9A00FA" font-family="Montserrat-Light, Montserrat" font-size="16">
+        <tspan x="55.952" y="660">2018</tspan>
+      </text>
+      <text fill="#C4DFDA" font-family="Roboto-Light, Roboto" font-size="12">
+        <tspan x="47.387" y="274">0% done</tspan>
+      </text>
+      <text fill="#C4DFDA" font-family="Roboto-Light, Roboto" font-size="12">
+        <tspan x="47.387" y="418">0% done</tspan>
+      </text>
+      <text fill="#C4DFDA" font-family="Roboto-Light, Roboto" font-size="12">
+        <tspan x="47.387" y="674">0% done</tspan>
+      </text>
+    </g>
+    <g font-size="16" transform="translate(146 27)">
+      <g transform="translate(0 150)">
+        <text font-family="Roboto-Light, Roboto" font-weight="300">
+          <tspan x="0" y="51" fill="#24EAC9"> • </tspan> <tspan x="36" y="51" fill="#FFF">2016: General purpose UI controls with advanced </tspan> <tspan x="36" y="73" fill="#FFF">transitions to increase User Experience</tspan> <tspan x="0" y="104" fill="#24EAC9"> • </tspan> <tspan x="36" y="104" fill="#FFF">2017: Make Core UI Kit Design and Code files available in </tspan> <tspan x="36" y="126" fill="#FFF">product package which allows usage in Facebook React, </tspan> <tspan x="36" y="148" fill="#FFF">Google Angular and Vue.js</tspan> <tspan x="0" y="179" fill="#24EAC9"> • </tspan> <tspan x="36" y="179" fill="#FFF">2018: Plan and release more UI Kits</tspan>
+        </text>
+        <text fill="#9A00FA" font-family="Montserrat-SemiBold, Montserrat" font-weight="500">
+          <tspan x="0" y="15">Core UI Kit</tspan>
+        </text>
+      </g>
+      <g transform="translate(0 1276)">
+        <g font-family="Roboto-Light, Roboto" font-weight="300" transform="translate(0 36)">
+          <text>
+            <tspan x="0" y="113" fill="#24EAC9"> • </tspan> <tspan x="36" y="113" fill="#FFF">Component App Store</tspan> <tspan x="0" y="144" fill="#24EAC9"> • </tspan> <tspan x="36" y="144" fill="#FFF">Collaborative Project space</tspan> <tspan x="0" y="175" fill="#24EAC9"> • </tspan> <tspan x="36" y="175" fill="#FFF">Integrated Developer workflows</tspan> <tspan x="0" y="206" fill="#24EAC9"> • </tspan> <tspan x="36" y="206" fill="#FFF">Continuous Deployment workflows</tspan>
+          </text>
+          <text fill="#FFF">
+            <tspan x="0" y="15">With the ARVA Hub we intend to facilitate a commercial market </tspan> <tspan x="0" y="37">place where Digital Creation Team can create their projects, </tspan> <tspan x="0" y="59">monetize their components and manage their product delivery </tspan> <tspan x="0" y="81">workflow with Global contributors in mind. </tspan>
+          </text>
+        </g>
+        <text fill="#9A00FA" font-family="Montserrat-SemiBold, Montserrat" font-weight="500">
+          <tspan x="0" y="15">Arva Hub</tspan>
+        </text>
+      </g>
+      <g transform="translate(0 1019)">
+        <g font-family="Roboto-Light, Roboto" font-weight="300" transform="translate(0 36)">
+          <text>
+            <tspan x="0" y="91" fill="#24EAC9"> • </tspan> <tspan x="36" y="91" fill="#FFF">Oracle connector</tspan> <tspan x="0" y="122" fill="#24EAC9"> • </tspan> <tspan x="36" y="122" fill="#FFF">SAP connector</tspan> <tspan x="0" y="153" fill="#24EAC9"> • </tspan> <tspan x="36" y="153" fill="#FFF">SharePoint connector</tspan> <tspan x="0" y="184" fill="#24EAC9"> • </tspan> <tspan x="36" y="184" fill="#FFF">IOT connectors</tspan>
+          </text>
+          <text fill="#FFF">
+            <tspan x="0" y="15">Have DevOps and Developers performing technical tasks like </tspan> <tspan x="0" y="37">data source configuration and data transport coding to close </tspan> <tspan x="0" y="59">the GAP between an application and its operating environment</tspan>
+          </text>
+        </g>
+        <text fill="#9A00FA" font-family="Montserrat-SemiBold, Montserrat" font-weight="500">
+          <tspan x="0" y="15">Data Integrator</tspan>
+        </text>
+      </g>
+      <g transform="translate(0 877)">
+        <g font-family="Roboto-Light, Roboto" font-weight="300" transform="translate(0 36)">
+          <text>
+            <tspan x="0" y="69" fill="#24EAC9"> • </tspan> <tspan x="36" y="69" fill="#FFF">Adaptive designer </tspan>
+          </text>
+          <text fill="#FFF">
+            <tspan x="0" y="15">Have product owners or analysts assemble application </tspan> <tspan x="0" y="37">scenarios from existing and newly created components.</tspan>
+          </text>
+        </g>
+        <text fill="#9A00FA" font-family="Montserrat-SemiBold, Montserrat" font-weight="500">
+          <tspan x="0" y="15">Application Assembler</tspan>
+        </text>
+      </g>
+      <g transform="translate(0 632)">
+        <g font-family="Roboto-Light, Roboto" font-weight="300" transform="translate(0 36)">
+          <text>
+            <tspan x="0" y="110" fill="#24EAC9"> • </tspan> <tspan x="36" y="110" fill="#FFF">Visual state designer</tspan> <tspan x="0" y="141" fill="#24EAC9"> • </tspan> <tspan x="36" y="141" fill="#FFF">Animation designer</tspan> <tspan x="0" y="172" fill="#24EAC9"> • </tspan> <tspan x="36" y="172" fill="#FFF">Arithmetic designer</tspan>
+          </text>
+          <text fill="#FFF">
+            <tspan x="0" y="15">The second milestone release of ARVA Studio where we provide </tspan> <tspan x="0" y="37">a Sketch like designer studio which enables designers to </tspan> <tspan x="0" y="59">produce the first digital components for sites, applications. </tspan> <tspan x="0" y="81">Features:</tspan>
+          </text>
+        </g>
+        <text fill="#9A00FA" font-family="Montserrat-SemiBold, Montserrat" font-weight="500">
+          <tspan x="0" y="15">Component Creator</tspan>
+        </text>
+      </g>
+      <g transform="translate(0 366)">
+        <text fill="#9A00FA" font-family="Montserrat-SemiBold, Montserrat" font-weight="500">
+          <tspan x="0" y="15">Code Studio</tspan>
+        </text>
+        <g font-family="Roboto-Light, Roboto" font-weight="300" transform="translate(0 36)">
+          <text>
+            <tspan x="0" y="69" fill="#24EAC9"> • </tspan> <tspan x="36" y="69" fill="#FFF">Spec driven development (instructions to code generation)</tspan> <tspan x="0" y="100" fill="#24EAC9"> • </tspan> <tspan x="36" y="100" fill="#FFF">Coding workflow automation</tspan> <tspan x="0" y="131" fill="#24EAC9"> • </tspan> <tspan x="36" y="131" fill="#FFF">On-the-fly Preview (auto reload)</tspan> <tspan x="0" y="162" fill="#24EAC9"> • </tspan> <tspan x="36" y="162" fill="#FFF">IPA, APK package exports</tspan> <tspan x="0" y="193" fill="#24EAC9"> • </tspan> <tspan x="36" y="193" fill="#FFF">Web Component exports</tspan>
+          </text>
+          <text fill="#FFF">
+            <tspan x="0" y="15">The first milestone release of ARVA Studio reflects an optimized </tspan> <tspan x="0" y="37">development environment for ARVA projects. Features:</tspan>
+          </text>
+        </g>
+      </g>
+      <text font-family="Roboto-Light, Roboto" font-weight="300">
+        <tspan x="0" y="51" fill="#24EAC9"> •</tspan> <tspan x="16.172" y="51" fill="#24EAC9" font-size="6"> </tspan> <tspan x="36" y="51" fill="#FFF">2015: MV*</tspan> <tspan x="0" y="82" fill="#24EAC9"> • </tspan> <tspan x="36" y="82" fill="#FFF">2016: Functional/Reactive</tspan> <tspan x="0" y="113" fill="#24EAC9"> • </tspan> <tspan x="36" y="113" fill="#FFF">2</tspan> <tspan x="44.867" y="113" fill="#FFF">017: Rendering Language</tspan>
+      </text>
+      <text fill="#9A00FA" font-family="Montserrat-SemiBold, Montserrat" font-weight="500">
+        <tspan x="0" y="15">Foundation</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
