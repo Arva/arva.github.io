@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="9" viewBox="0 0 14 9">
+    <style>
+        .a{fill:none;}.b{stroke-width:2;stroke:#00FA9A;}
+    </style>
+    <g class="a">
+        <g class="b">
+            <polyline points="0 0 7 9 14 0"/>
+        </g>
+    </g>
+</svg>

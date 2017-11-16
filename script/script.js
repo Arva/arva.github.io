@@ -984,6 +984,69 @@ function getDaysUntilICO(date) {
     countdownEl.append(text);
 }
 
+function ArvaFAQ(id) {
+    this.faqs = {};
+    this.el = $(id);
+    this.elFAQs = this.el.find(".faq");
+
+    this.initFAQs = function(id) {
+        let i = 0;
+        for(const elFAQ of this.elFAQs) {
+            const question = $(elFAQ).find(".faq-question");
+            const answer = $(elFAQ).find(".faq-answer");
+            this.faqs["faq-" + i] = { question: question, answer: answer, expanded: false };
+            $(elFAQ).attr("data-faqId", "faq-" + i);
+            i++;
+            $(elFAQ).on('click', this.handleFAQClick.bind(this));
+        }
+    };
+    this.handleFAQClick = function(e) {
+        const faq = this.faqs[$(e.currentTarget).attr('data-faqId')];
+        faq.expanded = !faq.expanded;
+        faq.expanded ? faq.question.parent().addClass('faq-expanded') : faq.question.parent().removeClass('faq-expanded');
+    };
+    this.initFAQs(id);
+}
+
+function ArvaTabs(id) {
+    this.tabs = {};
+    this.el = $(id);
+    this.elTabs = this.el.find(".tab .tab-name");
+
+    this.initTabs = function(id) {
+        let firstRun = true;
+        let initEvent;
+        for(const elTab of this.elTabs) {
+            const content = this.el.parent().find(id + "-content " + id + "-" + elTab.innerText);
+            if(!firstRun) {
+                content.hide();
+            } else {
+                initEvent = {currentTarget: elTab};
+            }
+            this.tabs[elTab.innerText] = {tab: $(elTab).parent(), selected: firstRun, content: content};
+            firstRun = false;
+            $(elTab).parent().on('click', this.handleTabClick.bind(this));
+        }
+        this.handleTabClick(initEvent);
+    };
+    this.handleTabClick = function(e) {
+        //const tab = this.tabs[e.target.innerText];
+        if(e.currentTarget.className !== "tab-name") {
+            e.currentTarget = $(e.currentTarget).find(".tab-name")[0];
+        }
+        for(const tab of Object.keys(this.tabs)) {
+            const content = this.tabs[tab].content;
+            tab === e.currentTarget.innerText ? content.show() : content.hide();
+            const elTab = $(this.tabs[tab].tab);
+            tab === e.currentTarget.innerText ? elTab.addClass('tab-selected') : elTab.removeClass('tab-selected');
+            tab.selected = tab === e.currentTarget.innerText;
+        }
+
+    };
+
+    this.initTabs(id);
+}
+
 $(document).ready(function() {
     var tweetText = 'Testing 1 2 3';
     var ICODate = new Date(2017, 10, 11);
@@ -992,7 +1055,7 @@ $(document).ready(function() {
     $('.social-tw a').on('click', function() {
         window.open('https://twitter.com/share?text=' + encodeURIComponent(tweetText), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');
         return false;
-    })
+    });
 
     $('.social-tw a, .social-fb a').hover(
         function() {
@@ -1008,6 +1071,9 @@ $(document).ready(function() {
     })
 
     getDaysUntilICO(ICODate);
+    const stagesTabs = new ArvaTabs(".tabs-stages");
+    const faqsTabs = new ArvaTabs(".tabs-faqs");
+    const faqs = new ArvaFAQ(".faq-grid");
     SVGAnimation();
     makeResponsive();
     getSocialStats();
