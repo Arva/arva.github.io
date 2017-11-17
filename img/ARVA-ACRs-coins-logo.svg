@@ -4,7 +4,7 @@
     <title>ARVA-ACRs-coins-logo.svg</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <ellipse id="path-1" cx="141.5" cy="143.472786" rx="108.779919" ry="108.492901"></ellipse>
+        <ellipse id="path-2" cx="141.5" cy="143.472786" rx="108.779919" ry="108.492901"></ellipse>
         <ellipse id="path-3" cx="141.5" cy="139.741549" rx="108.779919" ry="105.909736"></ellipse>
         <ellipse id="path-5" cx="141.5" cy="140.028567" rx="90.984787" ry="89.5496957"></ellipse>
         <filter x="-1.4%" y="-1.4%" width="102.7%" height="102.8%" filterUnits="objectBoundingBox" id="filter-6">
@@ -20,9 +20,9 @@
             <g id="Content-Copy" transform="translate(124.000000, 1889.000000)">
                 <g id="ARVA-ACRs-coins-logo.svg" transform="translate(715.000000, 687.000000)">
                     <mask id="mask-2" fill="white">
-                        <use xlink:href="#path-1"></use>
+                        <use xlink:href="#path-2"></use>
                     </mask>
-                    <use id="Mask" fill="#00CD7E" xlink:href="#path-1"></use>
+                    <use id="Mask" fill="#00CD7E" xlink:href="#path-2"></use>
                     <mask id="mask-4" fill="white">
                         <use xlink:href="#path-3"></use>
                     </mask>

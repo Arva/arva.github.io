@@ -466,7 +466,7 @@ margin-bottom: 10px;
   grid-template-areas:
     '. . . intro intro intro intro intro intro . . .'
     '. . . table table table table table table . . .'
-    '. contribute contribute contribute contribute contribute contribute contribute contribute contribute contribute .'
+    '. . . contribute contribute contribute contribute contribute contribute . . .'
     'step1 step1 step1 step1 step2 step2 step2 step2 step3 step3 step3 step3';
 }
 .tabs-stages-intro {
@@ -554,27 +554,17 @@ margin-bottom: 10px;
   grid-column-gap: 24px;
   grid-template-columns: 1fr 1fr;
 }
+.faq-container {
+  display: flex;
+  flex-direction: row;
+}
+.faq-column {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
 .faq {
-  overflow: hidden;
   cursor: pointer;
-}
-.faq-expanded .faq-question {
-  background: #FFFFFF;
-  border-radius: 5px;
-  color: #001A28;
-  line-height: 26px;
-  border: 1px solid #001A28;
-}
-.faq-expanded .faq-question .arrow {
-  color: #001A28;
-  transform: rotateX(180deg);
-}
-.faq .arrow {
-  transition: color 0.5s, transform 0.5s;
-  color: #00FA9A;
-}
-.faq-question {
-  /* Rectangle Copy: */
   background: #001A27;
   border: 1px solid rgba(36,234,201,0.30);
   border-radius: 5px;
@@ -582,18 +572,57 @@ margin-bottom: 10px;
   font-family: Montserrat;
   padding: 10px 20px;
   font-size: 16px;
-  color: #FFFFFF;
+  margin: 20px;
+}
+.faq-expanded {
+  background: #FFFFFF;
+
+  line-height: 26px;
+  border: 1px solid #001A28;
+}
+.faq-expanded .faq-question .arrow {
+  color: #001A28;
+  transform: rotateX(180deg);
+}
+.faq-expanded .faq-question {
+  color: #001A28;
+}
+.faq-expanded .faq-answer {
+  max-height: 250px;
+  color: #001A28;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.faq .arrow {
+  transition: all 200ms;
+  color: #00FA9A;
+}
+.faq-question {
+  /* Rectangle Copy: */
+  color: #ffffff;
   letter-spacing: 0;
   z-index: 10;
 }
 .faq-answer {
-  position: absolute;
-  bottom: 0px;
+  color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 200ms, padding-top 200ms, padding-bottom 200ms, color 100ms 100ms;
+  font-size: 14px;
   z-index: 9;
-  padding: 10px 20px;
 }
 .arrow {
   float: right;
+}
+.grid-schedule-call .headline h1 {
+  text-transform: none;
+}
+.grid-schedule-call .headline h2 {
+  text-transform: none;
+  font-weight: 100;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 h2 {
 color:#fff;
@@ -657,6 +686,44 @@ padding-bottom: 5px;
 .menu a:hover{
 color: #FEFE7C;
 transition: all 0.2s ease-in-out;
+}
+.contact-form {
+  display: grid;
+  color: white;
+  grid-column-gap: 20px;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.contact-input {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact-intro {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  color: #00FA9A;
+  text-align: center;
+  font-size: 16px;
+}
+.input-label {
+  color: #3F7068;
+  text-align: right;
+  font-size: 12px;
+}
+.input-desc {
+  color: #C4DFDA;
+  font-size: 12px;
+}
+.contact-submit {
+  grid-column: 2 / 3;
+}
+.contact-submit input {
+  width: 100%;
 }
 .grid-index-responsive {
   display: grid;
@@ -1815,9 +1882,17 @@ a span{
 }
 
 .social-subtitle {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
-
+.logo-subtext {
+  /* In return for Ethere: */
+  font-family: Roboto;
+  font-size: 20px;
+  color: #F2FFFD;
+  letter-spacing: 0;
+  line-height: 36px;
+}
 .social-subtitle p {
   max-width: 50%;
   margin-left: auto;

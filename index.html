@@ -4,8 +4,8 @@
 <head>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
     <link href="./img/favicon.png" rel="shortcut icon" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300|Montserrat:300,400,600,800" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,800" rel="stylesheet">-->
 
     <meta charset="utf-8" />
     <meta property="og:title" content="Help us build an Arva-mazing experience" />
@@ -22,6 +22,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="script/raphael.min.js"></script>
     <script src="script/raphael.group.js"></script>
+    <script src="script/svg-injector.min.js"></script>
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function (d, w, c) {
@@ -483,59 +484,94 @@
         </div>
         <div class="tabs-faqs-content">
             <div class="tabs-faqs-GENERAL">
-                <div class="faq-grid">
-                    <div class="faq">
-                        <div class="faq-question">
-                            Why did the chicken cross the road?
-                            <span class="arrow">
+                <!--This should be two flex-boxes side by side and not a grid to prevent expanding one expanding the opposite column also-->
+                <div class="faq-container faq-container-GENERAL">
+                    <div class="faq-column">
+                        <div class="faq">
+                            <div class="faq-question">
+                                Why did the chicken cross the road?
+                                <span class="arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="9" viewBox="0 0 14 9"><style>.a{fill:none;}.b{stroke-width:2;stroke:currentColor;}</style><g class="a"><g class="b"><polyline points="0 0 7 9 14 0"/></g></g></svg>
                             </span>
+                            </div>
+                            <div class="faq-answer">To get to the other side!</div>
                         </div>
-                        <div class="faq-answer">To get to the other side!</div>
-                    </div>
-                    <div class="faq">
-                        <div class="faq-question">
-                            Why did the chicken cross the road?
-                            <span class="arrow">
+                        <div class="faq">
+                            <div class="faq-question">
+                                Why did the chicken cross the road?
+                                <span class="arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="9" viewBox="0 0 14 9"><style>.a{fill:none;}.b{stroke-width:2;stroke:currentColor;}</style><g class="a"><g class="b"><polyline points="0 0 7 9 14 0"/></g></g></svg>
                             </span>
+                            </div>
+                            <div class="faq-answer">To get to the other side!</div>
                         </div>
-                        <div class="faq-answer">To get to the other side!</div>
-                    </div>
-                    <div class="faq">
-                        <div class="faq-question">
-                            Why did the chicken cross the road?
-                            <span class="arrow">
+                        <div class="faq">
+                            <div class="faq-question">
+                                Why did the chicken cross the road?
+                                <span class="arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="9" viewBox="0 0 14 9"><style>.a{fill:none;}.b{stroke-width:2;stroke:currentColor;}</style><g class="a"><g class="b"><polyline points="0 0 7 9 14 0"/></g></g></svg>
                             </span>
+                            </div>
+                            <div class="faq-answer">To get to the other side!</div>
                         </div>
-                        <div class="faq-answer">To get to the other side!</div>
                     </div>
-                    <div class="faq">
-                        <div class="faq-question">
-                            Why did the chicken cross the road?
-                            <span class="arrow">
+                    <div class="faq-column">
+                        <div class="faq">
+                            <div class="faq-question">
+                                Why did the chicken cross the road?
+                                <span class="arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="9" viewBox="0 0 14 9"><style>.a{fill:none;}.b{stroke-width:2;stroke:currentColor;}</style><g class="a"><g class="b"><polyline points="0 0 7 9 14 0"/></g></g></svg>
                             </span>
+                            </div>
+                            <div class="faq-answer">To get to the other side!</div>
                         </div>
-                        <div class="faq-answer">To get to the other side!</div>
-                    </div>
-                    <div class="faq">
-                        <div class="faq-question">
-                            Why did the chicken cross the road?
-                            <span class="arrow">
+                        <div class="faq">
+                            <div class="faq-question">
+                                Why did the chicken cross the road?
+                                <span class="arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="9" viewBox="0 0 14 9"><style>.a{fill:none;}.b{stroke-width:2;stroke:currentColor;}</style><g class="a"><g class="b"><polyline points="0 0 7 9 14 0"/></g></g></svg>
                             </span>
+                            </div>
+                            <div class="faq-answer">To get to the other side!</div>
                         </div>
-                        <div class="faq-answer">To get to the other side!</div>
+                        <div class="faq">
+                            <div class="faq-question">
+                                Why did the chicken cross the road?
+                                <span class="arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="9" viewBox="0 0 14 9"><style>.a{fill:none;}.b{stroke-width:2;stroke:currentColor;}</style><g class="a"><g class="b"><polyline points="0 0 7 9 14 0"/></g></g></svg>
+                            </span>
+                            </div>
+                            <div class="faq-answer">To get to the other side!</div>
+                        </div>
                     </div>
-
                 </div>
             </div>
             <div class="tabs-faqs-SALES">Sales</div>
             <div class="tabs-faqs-TOKENS">Tokens</div>
             <div class="tabs-faqs-OTHER">Other</div>
 
+        </div>
+    </div>
+
+    <div class="grid-schedule-call">
+        <div class="headline centered-headline">
+            <h3>Not convinced yet?</h3>
+            <h1>Schedule a call with CEO</h1>
+            <h2>Hans van den Akker is ready to invest his 5 minutes and call you</h2>
+            <div class="divider-center"> </div>
+        </div>
+        <div class="contact-form">
+            <div class="contact-intro">Leave your contact details:</div>
+            <div class="input-label">Your Name:</div>
+            <input type="text" class="contact-input"/>
+            <div class="input-desc">We need to know your name, right?</div>
+            <div class="input-label">Email:</div>
+            <input type="text" class="contact-input"/>
+            <div class="input-desc">So we can schedule a precise date and time.</div>
+            <div class="input-label">Phone Number:</div>
+            <input type="text" class="contact-input"/>
+            <div class="input-desc">Em... We think that you know why you we ask you this field.</div>
+            <div class="contact-submit"><input type="button" class="button" value="Schedule a call"/></div>
         </div>
     </div>
 
@@ -549,10 +585,11 @@
               <div class="divider-center"> </div>
           </div>
             <div class="social-subtitle">
-
-                <p>
-                  <img src="./img/timeline.svg" class="image-goals">
-                </p>
+                <img src="/img/timeline2.svg" class="image-goals svg-img">
+                <div>
+                    <div><img src="/img/ARVA-ACRs-coins-logo.svg" class="svg-img"/></div>
+                    <div class="logo-subtext">In return for Ethereum, buyers will receive an initial supply of ARC that can be traded on the exchange or held until release candidate for use on the network.</div>
+                </div>
             </div>
         </div>
 

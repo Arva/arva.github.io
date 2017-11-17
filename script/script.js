@@ -1073,7 +1073,11 @@ $(document).ready(function() {
     getDaysUntilICO(ICODate);
     const stagesTabs = new ArvaTabs(".tabs-stages");
     const faqsTabs = new ArvaTabs(".tabs-faqs");
-    const faqs = new ArvaFAQ(".faq-grid");
+    const faqs = new ArvaFAQ(".faq-container-GENERAL");
+    var mySVGsToInject = document.querySelectorAll('img.svg-img');
+
+    // Do the injection
+    SVGInjector(mySVGsToInject);
     SVGAnimation();
     makeResponsive();
     getSocialStats();
