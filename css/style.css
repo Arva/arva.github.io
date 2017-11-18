@@ -448,6 +448,39 @@ margin-bottom: 10px;
 }
 .tabs-stages-content, .tabs-faqs-content {
   grid-area: tabContent;
+  display:flex;
+  transition: margin 400ms;
+}
+.tabs-stages-selected-PRIVATE {
+  margin-left: 0%;
+}
+.tabs-stages-selected-PRESALE {
+  margin-left: -100%;
+}
+.tabs-stages-selected-PUBLIC {
+  margin-left: -200%;
+}
+.tabs-faqs-selected-GENERAL {
+  margin-left: 0%;
+}
+.tabs-faqs-selected-SALES {
+  margin-left: -100%;
+}
+.tabs-faqs-selected-TOKENS {
+  margin-left: -200%;
+}
+.tabs-faqs-selected-OTHER {
+  margin-left: -300%;
+}
+.tabs-stages-content {
+  width: 300%;
+}
+.tabs-faqs-content {
+  width: 400%;
+}
+.tabs-faqs-content > div {
+  width: 100%;
+  margin-top: 40px;
 }
 .tabs-stages-content > div {
   margin-top: 40px;
@@ -469,6 +502,7 @@ margin-bottom: 10px;
     '. . . contribute contribute contribute contribute contribute contribute . . .'
     'step1 step1 step1 step1 step2 step2 step2 step2 step3 step3 step3 step3';
 }
+
 .tabs-stages-intro {
   grid-area: intro;
   font-family: Helvetica;
@@ -563,6 +597,10 @@ margin-bottom: 10px;
   display: flex;
   flex-direction: column;
 }
+.faq:hover {
+  background-color: white;
+  color: #001A27;
+}
 .faq {
   cursor: pointer;
   background: #001A27;
@@ -573,6 +611,9 @@ margin-bottom: 10px;
   padding: 10px 20px;
   font-size: 16px;
   margin: 20px;
+}
+.faq:hover .faq-question, .faq:hover .faq-question .arrow {
+  color: #001A27;
 }
 .faq-expanded {
   background: #FFFFFF;
@@ -724,6 +765,28 @@ transition: all 0.2s ease-in-out;
 }
 .contact-submit input {
   width: 100%;
+}
+.grid-timeline {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    'headline headline'
+    'timeline logo';
+  margin: 50px;
+}
+.image-goals {
+  grid-area: timeline;
+}
+.goals-logo {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-area: logo;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 .grid-index-responsive {
   display: grid;
@@ -1008,6 +1071,7 @@ grid-template-areas:
 }
 .grid-stages-home {
   display: grid;
+  overflow: hidden;
   margin: 40px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -1018,6 +1082,7 @@ grid-template-areas:
 }
 .grid-faqs-home {
   display: grid;
+  overflow: hidden;
   margin: 40px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -1883,7 +1948,7 @@ a span{
 
 .social-subtitle {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
 }
 .logo-subtext {
   /* In return for Ethere: */
@@ -1891,6 +1956,7 @@ a span{
   font-size: 20px;
   color: #F2FFFD;
   letter-spacing: 0;
+  margin-top: 20px;
   line-height: 36px;
 }
 .social-subtitle p {

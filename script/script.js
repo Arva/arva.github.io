@@ -1009,6 +1009,7 @@ function ArvaFAQ(id) {
 }
 
 function ArvaTabs(id) {
+    this.id = id;
     this.tabs = {};
     this.el = $(id);
     this.elTabs = this.el.find(".tab .tab-name");
@@ -1018,9 +1019,7 @@ function ArvaTabs(id) {
         let initEvent;
         for(const elTab of this.elTabs) {
             const content = this.el.parent().find(id + "-content " + id + "-" + elTab.innerText);
-            if(!firstRun) {
-                content.hide();
-            } else {
+            if(firstRun) {
                 initEvent = {currentTarget: elTab};
             }
             this.tabs[elTab.innerText] = {tab: $(elTab).parent(), selected: firstRun, content: content};
@@ -1036,7 +1035,9 @@ function ArvaTabs(id) {
         }
         for(const tab of Object.keys(this.tabs)) {
             const content = this.tabs[tab].content;
-            tab === e.currentTarget.innerText ? content.show() : content.hide();
+            const contentContainer = this.el.parent().find(this.id + "-content");
+            const id = this.id.slice(1) + "-selected-" + tab;
+            tab === e.currentTarget.innerText ? contentContainer.addClass(id) : contentContainer.removeClass(id);
             const elTab = $(this.tabs[tab].tab);
             tab === e.currentTarget.innerText ? elTab.addClass('tab-selected') : elTab.removeClass('tab-selected');
             tab.selected = tab === e.currentTarget.innerText;
