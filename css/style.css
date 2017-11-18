@@ -28,18 +28,53 @@ button{
   }
 }
 @media (max-width: 480px) {
+  body .grid-timeline {
+    grid-template-areas: 
+      'headline headline'
+      'logo logo'
+      'timeline timeline';
+    margin: 25px;
+  }
+  .grid-timeline .headline {
+    margin-bottom: 40px;
+  }
+  .grid-timeline .goals-logo {
+    width: 100%;
+  }
+  .grid-schedule-call .contact-form {
+    margin-top: 40px;
+    width: 90%;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+  }
+  .contact-form .contact-intro {
+    grid-column: 1 / 3;
+  }
+  .contact-form .input-desc {
+    grid-column: 2 / 3;  
+  }
+  .contact-form .contact-submit {
+    grid-column: 1 / 3;
+  }
+  .grid-faqs-home .tabs-faqs {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 32px 1fr 32px 1fr 32px 1fr;
+    height: 376px;
+  }
+  .tabs-faqs-content .faq-container {
+    flex-direction: column;
+  }
   .grid-stages-home .tabs-stages {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 32px 1fr 32px 1fr;
+    height: 274px;
   }
   .grid-stages-home .tabs-stages .tab-line,
   .grid-faqs-home .tabs-faqs .tab-line {
     width: 50%;
     border-right: 1px solid rgba(36, 234, 201, 0.3);
     border-bottom: none;
-  }
-  .grid-stages-home .tabs-stages {
-    height: 274px;
   }
   .tabs-stages-content .tabs-stages-content-grid {
     grid-template-areas: 
