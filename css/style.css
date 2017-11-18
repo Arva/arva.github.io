@@ -22,9 +22,42 @@ button{
   font-family: 'Montserrat-Regular';
   src: url(../font/Montserrat-Arva.woff);
 }
+@media (max-width: 360px) {
+  .tabs-stages-content-grid .tabs-stages-table {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 480px) {
+  .grid-stages-home .tabs-stages {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 32px 1fr 32px 1fr;
+  }
+  .grid-stages-home .tabs-stages .tab-line,
+  .grid-faqs-home .tabs-faqs .tab-line {
+    width: 50%;
+    border-right: 1px solid rgba(36, 234, 201, 0.3);
+    border-bottom: none;
+  }
+  .grid-stages-home .tabs-stages {
+    height: 274px;
+  }
+  .tabs-stages-content .tabs-stages-content-grid {
+    grid-template-areas: 
+    'intro intro intro intro intro intro intro intro intro intro intro intro'
+    'table table table table table table table table table table table table'
+    'contribute contribute contribute contribute contribute contribute contribute contribute contribute contribute contribute contribute'
+    'step1 step1 step1 step1 step1 step1 step1 step1 step1 step1 step1 step1'
+    'step2 step2 step2 step2 step2 step2 step2 step2 step2 step2 step2 step2'
+    'step3 step3 step3 step3 step3 step3 step3 step3 step3 step3 step3 step3';
+  }
+}
 @media (max-width:360px){
 body .grid-index-responsive .index-buttons .form-subscribe {
   flex-direction: column;
+  align-items: center;
+}
+.bb-floating {
+  left: 10000px;
 }
 }
 @media (max-width: 720px) {
@@ -32,6 +65,9 @@ body .social-links{
     max-width: 290px;
     margin-left: auto;
     margin-right: auto;
+}
+.tabs-faqs, .tabs-stages {
+  margin-top: 40px;
 }
 body .footer{
   display: flex;
@@ -321,9 +357,9 @@ grid-gap: 5px;
     grid-template-areas: 
       'headline headline'
       '. .'
-      'avatar-1 avatar-2'
-      'avatar-3 avatar-4'
-      'avatar-5 avatar-6'
+      'avatar-2 avatar-2'
+      'avatar-4 avatar-6'
+      'avatar-5 avatar-5'
       'avatar-7 avatar-7' !important
   }
 
@@ -415,6 +451,7 @@ margin-bottom: 10px;
   grid-area: tabs;
   height: 70px;
   grid-template-columns: 3fr 10% 3fr 10% 3fr;
+  grid-template-rows: 1fr;
 }
 .tabs-stages .tab-line, .tabs-faqs .tab-line {
   height: 32px;
@@ -493,7 +530,7 @@ margin-bottom: 10px;
   text-transform: none;
   letter-spacing: 0;
 }
-.tabs-stages-content .tabs-stages-content-grid {
+.tabs-stages-content-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
@@ -521,6 +558,8 @@ margin-bottom: 10px;
 }
 .tabs-stages-contribute {
   margin-top: 30px;
+  display: flex;
+  align-items: center;
   color: #C5DFDB;
   grid-area: contribute;
 }
@@ -907,6 +946,7 @@ transition: all 0.2s ease-in-out;
 .middle p{
   margin-top: 70px;
 }
+
 body .grid-index-perks img{
   margin-top: 0px;
   margin-bottom: 0px;
