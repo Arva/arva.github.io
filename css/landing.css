@@ -1,0 +1,184 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #001A25;
+}
+
+input{
+    -webkit-appearance: none;
+}
+.button{
+    -webkit-appearance: none;
+}
+button{
+    -webkit-appearance: none;
+}
+
+.arva-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    height: 40px;
+    border-radius: 5px;
+    width: 156px;
+    font-size: 11px;
+    background-color: #00FA9A;
+    color: #001A27;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px 0 rgba(0,250,154,0.33);
+    border: none;
+}
+
+.transparent-btn {
+    background-color: transparent;
+    border: 1px rgba(0, 250, 154, 0.3) solid;
+    box-shadow: none;
+    color: white;
+}
+
+.dashed-btn {
+    background-color: transparent;
+    border: 1px rgba(0, 250, 154, 0.3) dashed;
+    box-shadow: none;
+    color: white;
+}
+
+#full-page-body {
+    padding: 120px 94px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#landing-grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        'rocket rocket rocket private private private'
+        'rocket rocket rocket private private private'
+        'rocket rocket rocket total total total'
+        'ready ready ready total total total'
+        'ready ready ready goal goal goal'
+        'ready ready ready goal goal goal'
+        'subtitle subtitle subtitle cap cap cap'
+        'subtitle subtitle subtitle cap cap cap'
+        'buttons buttons buttons x10 x10 showAll'
+        'buttons buttons buttons x10 x10 showAll';
+}
+
+#rocket {
+    grid-area: rocket;
+}
+
+#private {
+    grid-area: private;
+}
+
+#total {
+    grid-area: total;
+}
+
+#ready {
+    grid-area: ready;
+}
+#ready-title {
+    /* Ready for the big ga: */
+    font-family: Montserrat-Black;
+    font-size: 70px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+#ready-title span {
+    color: #00E4C3;
+}
+#ready-subtitle {
+    /* Because we are.: */
+    font-family: Montserrat-Light;
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+#goal {
+    grid-area: goal;
+}
+
+#subtitle {
+    grid-area: subtitle;
+}
+#subtitle-text {
+    /* Private ICO investme: */
+    font-family: Roboto-Light;
+    font-size: 26px;
+    color: #C4DFDA;
+    letter-spacing: 0;
+    line-height: 36px;
+}
+
+#cap {
+    grid-area: cap;
+}
+
+#buttons {
+    grid-area: buttons;
+}
+
+#x10 {
+    grid-area: x10;
+    display: flex;
+    flex-direction: row;
+}
+
+#showAll {
+    grid-area: showAll;
+}
+
+#logo-arva {
+    width: 107px;
+    height: 109px;
+    background-size: contain;
+}
+
+#x10-image {
+    width: 60px;
+    height: 60px;
+    flex: 1 0 80px;
+    background-repeat: no-repeat;
+}
+
+#x10-explain {
+    color: #C4DFDA;
+    /* Get a x10 multiplier: */
+    font-family: Roboto-Light;
+    flex: 0 1 auto;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+
+/* Images below */
+#x10-image {
+    background-image: url(/img/x10-icon.png);
+}
+
+#logo-arva {
+    background-image: url(/img/logo-arva.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    #x10-image {
+        background-image: url(/img/x10-icon@2x.png);
+    }
+
+    #logo-arva {
+        background-image: url(/img/logo-arva@2x.png);
+    }
+}
