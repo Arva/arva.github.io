@@ -31,6 +31,72 @@ button{
     border: none;
 }
 
+.counter-container {
+    display: flex;
+    float: right;
+    flex-direction: row;
+}
+.counter-currency {
+    /* €: */
+    font-family: Roboto-Light;
+    font-size: 26px;
+    color: #00FA9A;
+    letter-spacing: 0;
+    width: 40px;
+    height: 48px;
+    padding-left: 14px;
+    padding-top: 10px;
+}
+.counter-title {
+    /* ICO Goal: */
+    font-family: Roboto-Light;
+    font-size: 17px;
+    margin-bottom: 14px;
+    text-align: right;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+
+.counter-private {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    color: rgba(36, 234, 201, 0.3);
+    padding: 14px 10px;
+    background: url("../img/total-funds.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.number-disabled {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    color: rgba(36,234,201,0.30);
+    width: 40px;
+    height: 48px;
+    padding-left: 14px;
+    padding-top: 10px;
+    background: url("../img/number-bg-disabled.svg") no-repeat scroll 0 0 transparent;
+}
+.number-seperator {
+    width: 10px;
+    height: 48px;
+    padding-top: 10px;
+}
+.number-enabled {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    color: #00FA9A;
+    width: 40px;
+    height: 48px;
+    padding-left: 14px;
+    padding-top: 10px;
+    background: url("../img/number-bg-enabled.svg") no-repeat scroll 0 0 transparent;
+}
+
 .transparent-btn {
     background-color: transparent;
     border: 1px rgba(0, 250, 154, 0.3) solid;
@@ -58,19 +124,19 @@ button{
 #landing-grid {
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
-        'rocket rocket rocket private private private'
-        'rocket rocket rocket private private private'
-        'rocket rocket rocket total total total'
-        'ready ready ready total total total'
-        'ready ready ready goal goal goal'
-        'ready ready ready goal goal goal'
-        'subtitle subtitle subtitle cap cap cap'
-        'subtitle subtitle subtitle cap cap cap'
-        'buttons buttons buttons x10 x10 showAll'
-        'buttons buttons buttons x10 x10 showAll';
+        'rocket rocket rocket . private private private'
+        'rocket rocket rocket . private private private'
+        'rocket rocket rocket . total total total'
+        'ready ready ready . total total total'
+        'ready ready ready . goal goal goal'
+        'ready ready ready . goal goal goal'
+        'subtitle subtitle subtitle . cap cap cap'
+        'subtitle subtitle subtitle . cap cap cap'
+        'buttons buttons buttons . x10 x10 showAll'
+        'buttons buttons buttons . x10 x10 showAll';
 }
 
 #rocket {

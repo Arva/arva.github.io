@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="398px" height="50px" viewBox="0 0 398 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arva-ico" transform="translate(-923.000000, -270.000000)" stroke="#00FA9A">
+            <g id="Group-3" transform="translate(785.000000, 102.000000)">
+                <g id="1" transform="translate(107.000000, 0.000000)">
+                    <g id="Counter---enabled" transform="translate(32.000000, 169.000000)">
+                        <g id="Group-2">
+                            <path d="M0,22 L0,4.99214053 C0,2.23505745 2.2392417,0 5.00690317,0 L390.993097,0 C393.758333,0 396,2.23054698 396,4.99214053 L396,22" id="Path-2"></path>
+                            <path d="M0,48 L0,30.9921405 C0,28.2350574 2.2392417,26 5.00690317,26 L390.993097,26 C393.758333,26 396,28.230547 396,30.9921405 L396,48" id="Path-2" transform="translate(198.000000, 37.000000) scale(1, -1) translate(-198.000000, -37.000000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
