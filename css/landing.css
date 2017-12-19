@@ -1,7 +1,7 @@
 html, body {
-    height: 100%;
     width: 100%;
     margin: 0;
+    font-size: 1em;
     background-color: #001A25;
 }
 
@@ -22,7 +22,7 @@ button{
     height: 40px;
     border-radius: 5px;
     width: 156px;
-    font-size: 11px;
+    font-size: 0.7em;
     background-color: #00FA9A;
     color: #001A27;
     transition: all 0.2s ease-in-out;
@@ -39,7 +39,7 @@ button{
 .counter-currency {
     /* €: */
     font-family: Roboto-Light;
-    font-size: 26px;
+    font-size: 1.625em;
     color: #00FA9A;
     letter-spacing: 0;
     width: 40px;
@@ -50,7 +50,7 @@ button{
 .counter-title {
     /* ICO Goal: */
     font-family: Roboto-Light;
-    font-size: 17px;
+    font-size: 1em;
     margin-bottom: 14px;
     text-align: right;
     color: #FFFFFF;
@@ -61,7 +61,7 @@ button{
 .counter-private {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 26px;
+    font-size: 1.625em;
     color: rgba(36, 234, 201, 0.3);
     padding: 14px 10px;
     background: url("../img/total-funds.svg");
@@ -72,7 +72,7 @@ button{
 .number-disabled {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 26px;
+    font-size: 1.625em;
     color: rgba(36,234,201,0.30);
     width: 40px;
     height: 48px;
@@ -88,7 +88,7 @@ button{
 .number-enabled {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 26px;
+    font-size: 1.625em;
     color: #00FA9A;
     width: 40px;
     height: 48px;
@@ -114,7 +114,7 @@ button{
 #full-page-body {
     padding: 120px 94px;
     height: auto;
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     left: 0;
     right: 0;
@@ -122,7 +122,6 @@ button{
 }
 
 #landing-grid {
-    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -157,7 +156,7 @@ button{
 #ready-title {
     /* Ready for the big ga: */
     font-family: Montserrat-Black;
-    font-size: 70px;
+    font-size: 4.375em;
     color: #FFFFFF;
     letter-spacing: 0;
 }
@@ -167,7 +166,7 @@ button{
 #ready-subtitle {
     /* Because we are.: */
     font-family: Montserrat-Light;
-    font-size: 48px;
+    font-size: 3em;
     color: #FFFFFF;
     letter-spacing: 0;
 }
@@ -182,7 +181,7 @@ button{
 #subtitle-text {
     /* Private ICO investme: */
     font-family: Roboto-Light;
-    font-size: 26px;
+    font-size: 1.625em;
     color: #C4DFDA;
     letter-spacing: 0;
     line-height: 36px;
@@ -213,8 +212,8 @@ button{
 }
 
 #x10-image {
-    width: 60px;
-    height: 60px;
+    width: 3.75em;
+    height: 3.75em;
     flex: 1 0 80px;
     background-repeat: no-repeat;
 }
@@ -224,9 +223,9 @@ button{
     /* Get a x10 multiplier: */
     font-family: Roboto-Light;
     flex: 0 1 auto;
-    font-size: 18px;
+    font-size: 1.125em;
     letter-spacing: 0;
-    line-height: 26px;
+    line-height: 1.625em;
 }
 
 
