@@ -23,95 +23,123 @@
     <title>Help us build an Arva-mazing experience</title>
 </head>
 <body>
-    <div id="full-page-body">
-        <div id="landing-grid">
-            <div id="rocket">
-                <div id="logo-arva"></div>
-            </div>
-            <div id="private">
-                <div class="counter-title">Private investment round</div>
-                <div class="counter-container">
-                    <div class="counter-currency">&euro;</div>
-                    <div class="number-enabled">3</div>
-                    <div class="number-seperator"></div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-seperator"></div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
+    <div class="modal" id="modal-inactive">
+        <div id="modal-content">
+            <div id="modal-title">Get involved</div>
+            <div id="modal-subtitle">We're interested in serious partners from the IT world, ready to transform the fuck out of the way we develop digital products.</div>
+            <div id="modal-conditions" >Minimum investment 5k, maximum investment 100k</div>
+            <div id="modal-form">
+                <div>
+                    <label>Your name</label>
+                    <input type="text" placeholder="John Smith"/>
                 </div>
-            </div>
-            <div id="total">
-                <div class="counter-title">Total funds raised</div>
-                <div class="counter-container">
-                    <div class="counter-currency">&euro;</div>
-                    <div class="counter-private">
-                        <div id="counter-private-text">Visible for private investors</div>
-                    </div>
+                <div>
+                    <label>Your phone</label>
+                    <input type="text" placeholder="0611010011"/>
                 </div>
-            </div>
-            <div id="ready">
-                <div id="ready-title">
-                    Ready for the <span>big game?</span>
+                <div>
+                    <label>Your company</label>
+                    <input type="text" placeholder="Megasoft"/>
                 </div>
-                <div id="ready-subtitle">
-                    Because we are
+                <div>
+                    <button class="arva-btn">Submit</button>
                 </div>
-            </div>
-            <div id="goal">
-                <div class="counter-title">ICO Goal</div>
-                <div class="counter-container">
-                    <div class="counter-currency">&euro;</div>
-                    <div class="number-enabled">1</div>
-                    <div class="number-enabled">5</div>
-                    <div class="number-seperator"></div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-seperator"></div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                </div>
-            </div>
-            <div id="subtitle">
-                <div id="subtitle-text">
-                    Private ICO investment round is down the corner. Wanna make some profit together? Request more info and join our ARVA investors family.
-                </div>
-            </div>
-            <div id="cap">
-                <div class="counter-title">Hard ICO cap</div>
-                <div class="counter-container">
-                    <div class="counter-currency">&euro;</div>
-                    <div class="number-enabled">1</div>
-                    <div class="number-enabled">5</div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-seperator"></div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-seperator"></div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                    <div class="number-enabled">0</div>
-                </div>
-            </div>
-            <div id="buttons">
-                <div id="button-container">
-                    <button class="arva-btn">Get Involved</button>
-                    <button class="arva-btn transparent-btn">Check Arva.io</button>
-                </div>
-            </div>
-            <div id="x10">
-                <div id="x10-image"></div>
-                <div id="x10-explain">Get a x10 multiplier when we reach the ICO hard cap.</div>
-            </div>
-            <div id="showAll">
-                <button class="arva-btn dashed-btn">Show all tiers</button>
             </div>
         </div>
     </div>
+    <div class="wrapper">
+        <div id="full-page-body">
+            <div id="landing-grid">
+                <div id="rocket">
+                    <div id="logo-arva"></div>
+                    <img id="rocket-img" src="./img/rocket.png"/>
+                </div>
+                <div id="private">
+                    <div class="counter-title">Private investment round</div>
+                    <div class="counter-container">
+                        <div class="counter-currency">&euro;</div>
+                        <div class="number-enabled">3</div>
+                        <div class="number-seperator">.</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-seperator">.</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                    </div>
+                </div>
+                <div id="total">
+                    <div class="counter-title">Total funds raised</div>
+                    <div class="counter-container">
+                        <div class="counter-currency">&euro;</div>
+                        <div class="counter-private">
+                            <div id="counter-private-text">Visible for private investors</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ready">
+                    <div id="ready-title">
+                        Ready for<br />the <span>big game?</span>
+                    </div>
+                    <div id="ready-subtitle">
+                        Because we are
+                    </div>
+                </div>
+                <div id="goal">
+                    <div class="counter-title">ICO Goal</div>
+                    <div class="counter-container">
+                        <div class="counter-currency">&euro;</div>
+                        <div class="number-enabled">1</div>
+                        <div class="number-enabled">5</div>
+                        <div class="number-seperator">.</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-seperator">.</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                    </div>
+                </div>
+                <div id="subtitle">
+                    <div id="subtitle-text">
+                        Private ICO investment round is down the corner. Wanna make some profit together? Request more info and join our ARVA investors family.
+                    </div>
+                </div>
+                <div id="cap">
+                    <div class="counter-title">Hard ICO cap</div>
+                    <div class="counter-container">
+                        <div class="counter-currency">&euro;</div>
+                        <div class="number-enabled">1</div>
+                        <div class="number-enabled">5</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-seperator">.</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-seperator">.</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                        <div class="number-enabled">0</div>
+                    </div>
+                </div>
+                <div id="buttons">
+                    <div id="button-container">
+                        <button id="get-involved-btn" class="arva-btn">Get Involved</button>
+                        <button id="arvaio-btn" class="arva-btn transparent-btn">Check Arva.io</button>
+                    </div>
+                </div>
+                <div id="x10">
+                    <div id="x10-image"></div>
+                    <div id="x10-explain">Get a x10 multiplier when we reach the ICO hard cap.</div>
+                </div>
+                <div id="showAll">
+                    <button class="arva-btn dashed-btn">Show all tiers</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script/landing.js"></script>
 </body>
 </html>

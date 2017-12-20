@@ -3,6 +3,14 @@ html, body {
     margin: 0;
     font-size: 1em;
     background-color: #001A25;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 input{
@@ -31,11 +39,23 @@ button{
     border: none;
 }
 
+.arva-btn:hover {
+    background-color: #FEFE7C;
+    cursor: pointer;
+    color: #001A25;
+    box-shadow: 0 2px 4px 0 rgba(254,254,124,0.333);
+}
+
 .counter-container {
     display: flex;
     float: right;
     flex-direction: row;
 }
+
+.counter-container div {
+    margin-left: 7px;
+}
+
 .counter-currency {
     /* €: */
     font-family: 'Roboto';
@@ -63,7 +83,7 @@ button{
 .counter-private {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 1.625em;
+    font-size: 1.4em;
     color: #00FA9A;
     padding: 9px 10px;
     border: 3px solid;
@@ -87,16 +107,15 @@ letter-spacing: 4px;
     width: 10px;
     height: 48px;
     padding-top: 10px;
+    font-size: 1.625em;
+    color: #00FA9A;
 }
 .number-enabled {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 1.625em;
     color: #00FA9A;
-    width: 40px;
-    height: 48px;
-    padding-left: 14px;
-    padding-top: 10px;
+    padding: 10px 14px;
     background: url("../img/number-bg-enabled.svg") no-repeat scroll 0 0 transparent;
 }
 
@@ -114,18 +133,90 @@ letter-spacing: 4px;
     color: white;
 }
 
+.modal {
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    transition: opacity 200ms;
+    display: flex;
+    justify-content: center;
+}
+
+#modal-form {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#modal-form label {
+    display: block;
+}
+
+body #modal-inactive {
+    opacity: 0;
+    z-index: -1;
+}
+
+body #modal-active {
+    opacity: 1;
+    z-index: 10;
+}
+
+#wrapper-modal {
+    filter: blur(5px);
+}
+
+#modal-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#modal-title {
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.375em;
+}
+
+#modal-subtitle {
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    color: #C4DFDA;
+    font-size: 1.625em;
+}
+
+#modal-conditions {
+
+}
+
+.wrapper {
+    background-image: url('../img/arva-ico.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
 #full-page-body {
     padding: 120px 94px;
-    height: auto;
-    /*position: absolute;*/
+    min-height: 100%;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
 }
 
+#full-page-body div {
+    z-index: 5;
+}
+
 #landing-grid {
     display: grid;
+    min-height: 100%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
@@ -145,6 +236,14 @@ letter-spacing: 4px;
     grid-area: rocket;
 }
 
+#rocket-img {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 40%;
+    width: 40%;
+}
+
 #private {
     grid-area: private;
 }
@@ -159,6 +258,7 @@ letter-spacing: 4px;
 #ready-title {
     /* Ready for the big ga: */
     font-family: 'Montserrat';
+    font-weight: 800;
     font-size: 4.375em;
     color: #FFFFFF;
     letter-spacing: 0;
@@ -190,6 +290,7 @@ letter-spacing: 4px;
     color: #C4DFDA;
     letter-spacing: 0;
     line-height: 36px;
+    padding-bottom: 1em;
 }
 
 #cap {
@@ -198,6 +299,11 @@ letter-spacing: 4px;
 
 #buttons {
     grid-area: buttons;
+}
+
+#buttons button {
+    margin-right: 1em;
+    margin-top: 1em;
 }
 
 #x10 {
@@ -252,5 +358,11 @@ letter-spacing: 4px;
 
     #logo-arva {
         background-image: url(/img/logo-arva@2x.png);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 1.1em !important;
     }
 }
